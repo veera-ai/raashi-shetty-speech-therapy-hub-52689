@@ -1,0 +1,48 @@
+.sb-about-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.sb-about-card {
+  display: flex;
+  align-items: flex-start;
+  background: var(--bg-secondary, #fafafa);
+  border-radius: 16px;
+  box-shadow: 0 2px 14px rgba(25, 118, 210, 0.08);
+  padding: 2rem;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.sb-profile-img {
+  border-radius: 50%;
+  border: 6px solid var(--secondary, #fdc57b);
+}
+.sb-about-content h2 {
+  margin-top: 0.2em;
+  color: var(--primary, #1976d2);
+}
+.sb-profession {
+  color: var(--accent, #c2185b);
+  font-weight: 600;
+}
+.sb-credits {
+  margin: 1em 0 0 0;
+  padding: 0 0 0 1.2em;
+  color: #555;
+  font-size: 1rem;
+}
+.sb-about-summary {
+  background: var(--secondary, #fdc57b);
+  color: #222;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+@media (max-width: 900px) {
+  .sb-about-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}

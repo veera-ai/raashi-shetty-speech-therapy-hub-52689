@@ -1,5 +1,8 @@
 /* CSS Variables for Theme Management */
 :root {
+  --primary: #1976d2;
+  --secondary: #fdc57b;
+  --accent: #c2185b;
   /* Light theme colors */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;

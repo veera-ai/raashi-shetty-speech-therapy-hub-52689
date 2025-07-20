@@ -1,0 +1,42 @@
+.sb-payments-page {
+  max-width: 440px;
+  margin: 2rem auto;
+  padding: 1.2rem;
+  background: #fff;
+  border-radius: 13px;
+  box-shadow: 0 2px 16px rgba(25, 118, 210, 0.06);
+}
+.sb-payments-page h1 {
+  color: var(--primary, #1976d2);
+}
+.sb-payments-box {
+  margin: 1.6em 0;
+  padding: 1.2em;
+  background: var(--bg-secondary, #f8f9fa);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.sb-payments-box label {
+  font-weight: 500;
+  color: var(--accent, #c2185b);
+  margin-bottom: 8px;
+}
+.sb-payments-box input {
+  width: 120px;
+  padding: 8px 10px;
+  border: 1px solid var(--secondary,#fdc57b);
+  border-radius: 7px;
+  font-size: 1.1em;
+  margin-left: 8px;
+}
+.sb-payment-success-msg {
+  color: green;
+  font-weight: 600;
+  margin-top: 0.7em;
+}
+.sb-payment-progress-msg {
+  color: var(--accent, #c2185b);
+  margin-top: 0.7em;
+}

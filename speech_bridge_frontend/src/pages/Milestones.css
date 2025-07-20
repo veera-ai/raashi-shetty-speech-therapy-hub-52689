@@ -1,0 +1,43 @@
+.sb-milestones-page {
+  max-width: 950px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+.sb-milestones-page h1 {
+  color: var(--primary, #1976d2);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.sb-milestone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px,1fr));
+  gap: 1.5rem;
+}
+.sb-milestone-card {
+  background: var(--bg-secondary, #fafafa);
+  border-radius: 13px;
+  border-left: 7px solid var(--accent,#c2185b);
+  box-shadow: 0 2px 8px rgba(197,24,91,0.055);
+  padding: 1.3em 1em;
+}
+.sb-milestone-age {
+  font-size: 1.2em;
+  color: var(--primary,#1976d2);
+  font-weight: 600;
+  margin-bottom: 0.7em;
+}
+.sb-milestone-card ul {
+  color: #222;
+  margin: 0 0 1em 0;
+  padding: 0 0 0 18px;
+}
+.sb-milestone-tip {
+  color: var(--accent,#c2185b);
+  background: #fff2f8;
+  border-radius: 7px;
+  font-size: 1em;
+  padding: 0.4em 0.7em;
+}
+@media (max-width: 600px) {
+  .sb-milestone-grid {gap: 0.7em;}
+}

@@ -1,0 +1,47 @@
+.sb-appt-section {
+  max-width: 520px;
+  margin: 2.5rem auto;
+  padding: 2rem 1rem 1rem 1rem;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(197,24,91,0.07);
+  border-radius: 16px;
+}
+.sb-appt-section h1 {
+  color: var(--primary,#1976d2);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.sb-appt-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+.sb-appt-row {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+.sb-appt-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: var(--accent, #c2185b);
+  font-size: 1.08rem;
+  flex: 1 1 150px;
+}
+.sb-appt-form input {
+  margin-top: 0.2em;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: 1.5px solid var(--secondary,#fdc57b);
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+.sb-btn-main {
+  align-self: start;
+  font-size: 1.09rem;
+  margin-top: 1.3em;
+}
+@media (max-width: 620px) {
+  .sb-appt-row {flex-direction: column;}
+}
