@@ -13,6 +13,7 @@ import Milestones from "./pages/Milestones";
 import Questionnaire from "./pages/Questionnaire";
 import AIChat from "./pages/AIChat";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 
 // PUBLIC_INTERFACE
 function App() {
@@ -59,6 +60,7 @@ function App() {
             <Route path="/questionnaire" element={<Questionnaire />} />
             <Route path="/chat" element={<AIChat />} />
             <Route path="/login" element={<Login onLogin={() => setAuthenticated(true)} />} />
+            <Route path="/register" element={<Register />} />
             {/* Not Found fallback */}
             <Route path="*" element={<Home />} />
           </Routes>

@@ -27,7 +27,10 @@ function Header({ isAuthenticated, onLogout }) {
         {isAuthenticated ? (
           <li><button className="sb-link-btn" onClick={onLogout}>Logout</button></li>
         ) : (
-          <li><Link to="/login">Login</Link></li>
+          <>
+            <li><Link to="/login">Login</Link></li>
+            <li><Link to="/register">Sign Up</Link></li>
+          </>
         )}
       </ul>
     </nav>
